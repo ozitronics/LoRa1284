@@ -38,7 +38,7 @@ int val, oldval;
  I/O pin definitions and program defines                                     */
 #define LED_BUILTIN 7           // LoRa1284 onboard LED
 
-const int pot = A7;             // potentiometer connected to this pin!
+const int pot = A7;             // potentiometer connected to this pin
 
 /*****************************************************************************/
 void setup()
