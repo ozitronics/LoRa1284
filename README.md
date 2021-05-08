@@ -92,3 +92,7 @@ as described below.
 The 3V3 pins are direct connected to the ATmega1284 Vcc pins and that is the operating voltage range of the ATmega1284 chip itself
 
 - **Do not exceed 3.7V** if a LoRa module is installed (maximum operating voltage)
+
+**Low power operation**
+
+For low power operation the onboard power and blink LEDs can be disabled by removing solder jumpers SJ1 and SJ2
