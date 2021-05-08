@@ -84,9 +84,7 @@ There are two options for powering the LoRa1284 board - via VIN or via the 3V3 p
 
 **Powering via 3V3 pins**
 
-Why would you want to?
-
-For running on batteries such as LI-ION or LI-PO. However there are limitations
+**Why would you want to?** For running on batteries such as LI-ION or LI-PO. However there are limitations
 as described below.
 
 * Input voltage range = 1.8V - 5.5V
