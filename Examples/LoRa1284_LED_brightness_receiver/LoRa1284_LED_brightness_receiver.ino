@@ -5,7 +5,7 @@
  Receive data value via LoRa and use it to vary LED brightness using PWM
  
  Each received value is also sent via serial port and can be viewed using
- the Arduino IDE serial monitor
+ the Arduino IDE serial monitor (9600 baud)
  
  Arduino IDE setup
  -----------------
