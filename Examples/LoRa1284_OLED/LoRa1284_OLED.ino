@@ -20,7 +20,7 @@
  The library used in this sketch is a character only library ie. no graphics.
 
  It's main advantage is that it uses just a few bytes of RAM and program
- storage space, although this is not really a problem with an ATmega1284 MCU!
+ storage space, although this is not really a problem with an ATmega1284 MCU.
  *****************************************************************************/
 
 /*****************************************************************************/
