@@ -5,8 +5,6 @@ LoRa1284 is an Arduino compatible board using an ATmega1284P. It has provision f
 
 **Features**
 
-
-
 - ATmega1284p MCU @ 3.3v
 - ATmega1284p has 128KB Flash, 16KB SRAM and 4KB EEPROM
 - All 32 I/O pins brought out to pin headers
