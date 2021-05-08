@@ -89,5 +89,6 @@ as described below.
 
 * Input voltage range = 1.8V - 5.5V
 
-- The 3V3 pins are direct connected to the ATmega1284 Vcc pins and that is the operating voltage range of the ATmega1284 chip itself
-  - **Do not exceed 3.7V** if a LoRa module is installed (maximum operating voltage)
+The 3V3 pins are direct connected to the ATmega1284 Vcc pins and that is the operating voltage range of the ATmega1284 chip itself
+
+- **Do not exceed 3.7V** if a LoRa module is installed (maximum operating voltage)
