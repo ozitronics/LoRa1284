@@ -35,7 +35,7 @@ int val = 0;                      // default = 1/2 brightness
 
 /******************************************************************************
  I/O pin definitions and program defines                                     */
-const int led = 12;               // LED connected to this pin!
+const int led = 12;               // LED connected to this pin
 
 /*****************************************************************************/
 void setup()
