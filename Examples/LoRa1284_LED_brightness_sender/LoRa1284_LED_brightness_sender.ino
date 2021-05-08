@@ -6,7 +6,7 @@
  The receiver uses the value to vary the brightness of an LED
 
  Each transmitted value is also sent via serial port and can be viewed using
- the Arduino IDE serial monitor (9600 baud)
+ the Arduino IDE serial monitor
  
  Arduino IDE setup
  -----------------
