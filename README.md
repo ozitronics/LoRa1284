@@ -29,16 +29,6 @@ libraries for LoRa, OLEDs, etc memory and I/O pins start to run out. This is
 where the ATmega1284 comes in. Not only does it have extra flash, SRAM, EEPROM
 and I/O pins but existing Arduino libraries just work!!!
 
-**Package Contents**
-
-Each LoRa1284 comes in an anti-static bag that includes:
-
-- 1 x LoRa1284 module
-- 2 x 20-pin male headers
-- 1 x 6-pin female socket
-- 1 x 4-pin female socket
-- 1 x pinout card
-
 **How to program?**
 
 You need to add board support in the Arduino IDE.
