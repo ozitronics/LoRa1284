@@ -18,17 +18,6 @@ LoRa1284 is an Arduino compatible board using an ATmega1284P. It has provision f
 - Input voltage reverse polarity protection
 - Small footprint: 51 x 25.5 mm (2" x 1")
 
-**Why LoRa1284?**
-
-For a while now I have been making projects using wireless comms for remote
-sensing and control. In particular I have been using LoRa modules for their
-reliability and long range operation.
-
-For many projects an ATmega328 is more than adequate but once you start adding
-libraries for LoRa, OLEDs, etc memory and I/O pins start to run out. This is
-where the ATmega1284 comes in. Not only does it have extra flash, SRAM, EEPROM
-and I/O pins but existing Arduino libraries just work!!!
-
 **How to program?**
 
 You need to add board support in the Arduino IDE.
