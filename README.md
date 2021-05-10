@@ -52,7 +52,7 @@ There are two options for powering the LoRa1284 board - via VIN or via the 3V3 p
 
 **Powering via VIN**
 
-- Input voltage range = 5V - 16V. VIN is protected against reverse polarity
+- Input voltage range = 5V - 16V. Note: VIN is protected against reverse polarity
 - VIN is converted to 3.3v by an onboard MCP1703 voltage regulator with a maximum output current of 250mA
 - The 3.3v output powers both the ATmegta1284 and the LoRa module and is also available on the 3V3 pins for powering external devices. However the maximum current available on these pins depends on whether a LoRa module is installed or not
   - The active operating current of the ATmega1284 chip itself is approx 5mA
