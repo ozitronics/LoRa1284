@@ -5,8 +5,6 @@ LoRa1284 is an Arduino compatible board using an ATmega1284P. It has provision f
 
 **Features**
 
-
-
 - ATmega1284p MCU @ 3.3v
 - ATmega1284p has 128KB Flash, 16KB SRAM and 4KB EEPROM
 - All 32 I/O pins brought out to pin headers
@@ -31,8 +29,6 @@ For convenience the following is copied from the MightyCore link:
 
 This installation method requires Arduino IDE version 1.6.4 or greater.
 
- 
-
 - Open the Arduino IDE.
 - Open the File > Preferences menu item.
 - Enter the following URL in Additional Boards Manager URLs:
@@ -52,12 +48,12 @@ There are two options for powering the LoRa1284 board - via VIN or via the 3V3 p
 
 **Powering via VIN**
 
-- Input voltage range = 5V - 16V. Note: VIN is protected against reverse polarity
+- Input voltage range = 5V - 16V. **Note:** VIN is protected against reverse polarity
 - VIN is converted to 3.3v by an onboard MCP1703 voltage regulator with a maximum output current of 250mA
-- The 3.3v output powers both the ATmegta1284 and the LoRa module and is also available on the 3V3 pins for powering external devices. However the maximum current available on these pins depends on whether a LoRa module is installed or not
-  - The active operating current of the ATmega1284 chip itself is approx 5mA
-  - The operating current of the LoRa module can be as high as 120mA when transmitting
-  - Therefore the current available will be either 245mA or 125mA respectively
+- The 3.3v output powers both the ATmegta1284 and the LoRa module and is also available on the 3V3 pins for powering external devices. However the maximum current available on these pins depends on whether a LoRa module is installed or not.
+- The active operating current of the ATmega1284 chip itself is approx 5mA
+- The operating current of the LoRa module can be as high as 120mA when transmitting
+- Therefore the current available will be either 245mA or 125mA respectively
 
 **Powering via 3V3 pins**
 
